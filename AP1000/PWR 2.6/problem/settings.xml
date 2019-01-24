@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<settings>
+
+   <!--
+      ====================================================
+      Description: AP1000 PWR Assembly 17*17 
+      Case:        Problem 2 (17*17 PWR Assembly)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+
+<cross_sections>
+/home/ahmedk/Desktop/xdata/cross_sections.xml
+</cross_sections>
+
+
+  <eigenvalue>
+    <batches>600</batches>
+    <inactive>50</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <source>
+    <space>
+      <type>box</type>
+      <parameters>
+        -10.659 -10.659 -182.9
+         10.659  10.659  182.9
+      </parameters>
+    </space>
+  </source>
+
+</settings>

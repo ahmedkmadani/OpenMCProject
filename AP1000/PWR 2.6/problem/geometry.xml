@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<geometry>
+
+  <!--
+      ====================================================
+      Description: AP1000 PWR Assembly 17*17 
+      Case:        Problem 2 (17*17 PWR Assembly)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+
+  <cell id="1"    fill="5"       region="1 -2 3 -4 10 -11" />
+  <cell id="10" universe="1" material="1" region="-5" />
+  <cell id="20" universe="1" material="2" region="5 -6 " />
+  <cell id="30" universe="1" material="3" region="6 -7" />
+  <cell id="40" universe="1" material="4" region="7" />
+
+  <cell id="50" universe="2" material="4" region="-8" />
+  <cell id="60" universe="2" material="5" region="8 -9" />
+  <cell id="70" universe="2" material="4" region="9" />
+
+  <lattice id="5" >
+    <dimension>17 17</dimension>
+    <lower_left>-10.659 -10.659</lower_left>
+    <pitch>1.26 1.26</pitch>
+    <universes>
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1   
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 2 1 1 2 1 1 2 1 1 1 1 1 
+       1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1  
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+       1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+       1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1
+       1 1 1 1 1 2 1 1 2 1 1 2 1 1 1 1 1 
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    </universes>
+  </lattice>
+
+  <surface id="1" type="x-plane" coeffs="-10.659" boundary="reflective"  />
+  <surface id="2" type="x-plane" coeffs="10.659"  boundary="reflective"  />
+  <surface id="3" type="y-plane" coeffs="-10.659" boundary="reflective"  />
+  <surface id="4" type="y-plane" coeffs="10.659"  boundary="reflective"  />
+
+  <surface id="5" type="z-cylinder" coeffs="0. 0. 0.4095"  />
+  <surface id="6" type="z-cylinder" coeffs="0. 0. 0.4177" />
+  <surface id="7" type="z-cylinder" coeffs="0. 0. 0.4749" />
+  <surface id="8" type="z-cylinder" coeffs="0. 0. 0.5715" />
+  <surface id="9" type="z-cylinder" coeffs="0. 0. 0.612" />
+
+  <surface id="10" type="z-plane" coeffs="-182.9" boundary="reflective" />
+  <surface id="11" type="z-plane" coeffs="182.9" boundary="reflective" />
+
+  <surface id="12" type="x-plane" coeffs="-0.627" />
+  <surface id="13" type="x-plane" coeffs="0.627"  />
+  <surface id="14" type="y-plane" coeffs="-0.627"  />
+  <surface id="15" type="y-plane" coeffs="0.627"  />
+  
+ </geometry>
+
+ 
+

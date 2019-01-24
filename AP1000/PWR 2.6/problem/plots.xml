@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<plots>
+
+
+ <!--
+      ====================================================
+      Description: AP1000 PWR Assembly 17*17 
+      Case:        Problem 2 (17*17 PWR Assembly)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+
+
+  <plot id="1" color="mat" >
+    <origin>0. 0. 0.</origin>
+    <width>25.50 25.50 </width>
+    <pixels>1000 1000 </pixels>
+    <col_spec id="1" rgb="123 123 231" />
+
+    
+  </plot>
+
+</plots>
