@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<tallies>
+
+
+  
+  <tally id="1">
+    <filter type="cell" bins="93 87" />
+    <scores>flux</scores>
+  </tally>
+
+  <tally id="2">
+    <filter type="cell" bins="93 87" />
+    <scores>nu-fission</scores>
+  </tally>
+  
+  
+  <tally id="3">
+    <filter type="cell" bins="93 87" />
+    <scores>delayed-nu-fission</scores>
+  </tally>
+  
+<tally id="4">
+    <filter type="cell" bins="93 87" />
+    <scores>fission</scores>
+  </tally>
+  
+  <tally id="5">
+    <filter type="cell" bins="93 87" />
+    <scores>absorption</scores>
+  </tally>
+  
+  <tally id="6">
+    <filter type="cell" bins="93 87" />
+    <scores>scatter</scores>
+  </tally>
+  
+  <tally id="7">
+    <filter type="cell" bins="93 87" />
+    <scores>total</scores>
+  </tally>
+  
+
+  <tally id="8">
+   <filter type="delayedgroup" bins="1 2 3 4 5 6" />
+   <scores>delayed-nu-fission</scores>
+  </tally>
+</tallies>

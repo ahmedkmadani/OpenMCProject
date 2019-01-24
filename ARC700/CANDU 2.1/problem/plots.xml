@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<!--
+      ====================================================
+      Description: ACR1000 Assembly 43 Fuel pins
+      Case:        Problem  (43 fuel pins)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+
+<plots>
+  <plot basis="xy" id="1" color="mat" >
+    <origin>0. 0. 0.</origin>
+    <width>25.0 25.0 </width>
+    <pixels>1000 1000</pixels>
+ 
+    <!-- <meshlines mesh="1" linewidth="2" color="0 255 0"/> -->
+  </plot>
+</plots>

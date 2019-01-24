@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+
+<!--
+      ====================================================
+      Description: ACR1000 Assembly 43 Fuel pins
+      Case:        Problem  (43 fuel pins)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+
+<geometry>
+  <surface id="1" type="z-cylinder" coeffs="0.0   4.384  0.536"  /> 
+  <surface id="2" type="z-cylinder" coeffs="1.293   4.189  .536"  /> 
+  <surface id="3" type="z-cylinder" coeffs="2.470   3.622  .536"  /> 
+  <surface id="4" type="z-cylinder" coeffs="3.429   2.732  .536"  /> 
+  <surface id="5" type="z-cylinder" coeffs="4.082   1.600  .536"  /> 
+  <surface id="6" type="z-cylinder" coeffs="4.372   0.325  .536"  /> 
+  <surface id="7" type="z-cylinder" coeffs="4.273  -0.980  .536"  /> 
+  <surface id="8" type="z-cylinder" coeffs="3.795  -2.200  .536"  /> 
+  <surface id="9" type="z-cylinder" coeffs="2.979  -3.220  .536"  /> 
+  <surface id="10" type="z-cylinder" coeffs="1.898  -3.950  .536"  /> 
+  <surface id="11" type="z-cylinder" coeffs="0.648  -4.340  .536"  /> 
+  <surface id="12" type="z-cylinder" coeffs="-1.293   4.189  .536"  /> 
+  <surface id="13" type="z-cylinder" coeffs="-2.470   3.622  .536"  /> 
+  <surface id="14" type="z-cylinder" coeffs="-3.429   2.732  .536"   /> 
+  <surface id="15" type="z-cylinder" coeffs="-4.082   1.600  .536"   /> 
+  <surface id="16" type="z-cylinder" coeffs="-4.372   0.325  .536"  /> 
+  <surface id="17" type="z-cylinder" coeffs="-4.273  -0.980  .536"  /> 
+  <surface id="18" type="z-cylinder" coeffs="-3.795  -2.200  .536"  /> 
+  <surface id="19" type="z-cylinder" coeffs="-2.979  -3.220  .536"  /> 
+  <surface id="20" type="z-cylinder" coeffs="-1.898  -3.950  .536"  /> 
+  <surface id="21" type="z-cylinder" coeffs="-0.648  -4.340  .536"  /> 
+ 
+  <surface id="22" type="z-cylinder" coeffs="0.684    2.998  .536"  /> 
+  <surface id="23" type="z-cylinder" coeffs="1.918    2.404  .536"  /> 
+  <surface id="24" type="z-cylinder" coeffs="2.771    1.333  .536"  /> 
+  <surface id="25" type="z-cylinder" coeffs="3.075    0.000  .536"  /> 
+  <surface id="26" type="z-cylinder" coeffs="2.770    -1.340 .536"  /> 
+  <surface id="27" type="z-cylinder" coeffs="1.915    -2.410 .536"  /> 
+  <surface id="28" type="z-cylinder" coeffs="0.681    -3.000 .536"  /> 
+  <surface id="29" type="z-cylinder" coeffs="-0.690   -3.000 .536"  /> 
+  <surface id="30" type="z-cylinder" coeffs="-1.920   -2.400 .536"  /> 
+  <surface id="31" type="z-cylinder" coeffs="-2.770   -1.330 .536"  /> 
+  <surface id="32" type="z-cylinder" coeffs="-3.070   -0.006 .536"  /> 
+  <surface id="33" type="z-cylinder" coeffs="-2.770    1.340 .536"  /> 
+  <surface id="34" type="z-cylinder" coeffs="-1.910    2.408 .536"  /> 
+  <surface id="35" type="z-cylinder" coeffs="-.680     3.000 .536"   /> 
+  <surface id="36" type="z-cylinder" coeffs="0.000     1.730  .631"   /> 
+  <surface id="37" type="z-cylinder" coeffs="1.353     1.078  .631"  /> 
+  <surface id="38" type="z-cylinder" coeffs="1.686   -.390    .631"  /> 
+  <surface id="39" type="z-cylinder" coeffs="0.749  -1.560    .631"  /> 
+  <surface id="40" type="z-cylinder" coeffs="-0.750  -1.560    .631"  /> 
+  <surface id="41" type="z-cylinder" coeffs="-1.690   -.380    .631"  /> 
+  <surface id="42" type="z-cylinder" coeffs="-1.350  1.082    .631"  /> 
+  <surface id="43" type="z-cylinder" coeffs="0.00  0.00   .631"  /> 
+
+   <surface id="44" type="z-cylinder" coeffs="0.0   4.384  0.575"  /> 
+  <surface id="45" type="z-cylinder" coeffs="1.293   4.189  .575"  /> 
+  <surface id="46" type="z-cylinder" coeffs="2.470   3.622  .575"  /> 
+  <surface id="47" type="z-cylinder" coeffs="3.429   2.732  .575"  /> 
+  <surface id="48" type="z-cylinder" coeffs="4.082   1.600  .575"  /> 
+  <surface id="49" type="z-cylinder" coeffs="4.372   0.325  .575"  /> 
+  <surface id="50" type="z-cylinder" coeffs="4.273  -0.980  .575"  /> 
+  <surface id="51" type="z-cylinder" coeffs="3.795  -2.200  .575"  /> 
+  <surface id="52" type="z-cylinder" coeffs="2.979  -3.220  .575"  /> 
+  <surface id="53" type="z-cylinder" coeffs="1.898  -3.950  .575"  /> 
+  <surface id="54" type="z-cylinder" coeffs="0.648  -4.340  .575"  /> 
+  <surface id="55" type="z-cylinder" coeffs="-1.293   4.189  .575"  /> 
+  <surface id="56" type="z-cylinder" coeffs="-2.470   3.622  .575"  /> 
+  <surface id="57" type="z-cylinder" coeffs="-3.429   2.732  .575"   /> 
+  <surface id="58" type="z-cylinder" coeffs="-4.082   1.600  .575"   /> 
+  <surface id="59" type="z-cylinder" coeffs="-4.372   0.325  .575"  /> 
+  <surface id="60" type="z-cylinder" coeffs="-4.273  -0.980  .575"  /> 
+  <surface id="61" type="z-cylinder" coeffs="-3.795  -2.200  .575"  /> 
+  <surface id="62" type="z-cylinder" coeffs="-2.979  -3.220  .575"  /> 
+  <surface id="63" type="z-cylinder" coeffs="-1.898  -3.950  .575"  /> 
+  <surface id="64" type="z-cylinder" coeffs="-0.648  -4.340  .575"  /> 
+ 
+  <surface id="65" type="z-cylinder" coeffs="0.684    2.998  .575"  /> 
+  <surface id="66" type="z-cylinder" coeffs="1.918    2.404  .575"  /> 
+  <surface id="67" type="z-cylinder" coeffs="2.771    1.333  .575"  /> 
+  <surface id="68" type="z-cylinder" coeffs="3.075    0.000  .575"  /> 
+  <surface id="69" type="z-cylinder" coeffs="2.770    -1.340 .575"  /> 
+  <surface id="70" type="z-cylinder" coeffs="1.915    -2.410 .575"  /> 
+  <surface id="71" type="z-cylinder" coeffs="0.681    -3.000 .575"  /> 
+  <surface id="72" type="z-cylinder" coeffs="-0.690   -3.000 .575"  /> 
+  <surface id="73" type="z-cylinder" coeffs="-1.920   -2.400 .575"  /> 
+  <surface id="74" type="z-cylinder" coeffs="-2.770   -1.330 .575"  /> 
+  <surface id="75" type="z-cylinder" coeffs="-3.070   -0.006 .575"  /> 
+  <surface id="76" type="z-cylinder" coeffs="-2.770    1.340 .575"  /> 
+  <surface id="77" type="z-cylinder" coeffs="-1.910    2.408 .575"  /> 
+  <surface id="78" type="z-cylinder" coeffs="-.680     3.000 .575"   /> 
+  <surface id="79" type="z-cylinder" coeffs="0.000     1.730  .675"   /> 
+  <surface id="80" type="z-cylinder" coeffs="1.353     1.078  .675"  /> 
+  <surface id="81" type="z-cylinder" coeffs="1.686   -.390    .675"  /> 
+  <surface id="82" type="z-cylinder" coeffs="0.749  -1.560    .675"  /> 
+  <surface id="83" type="z-cylinder" coeffs="-0.750  -1.560    .675"  /> 
+  <surface id="84" type="z-cylinder" coeffs="-1.690   -.380    .675"  /> 
+  <surface id="85" type="z-cylinder" coeffs="-1.350  1.082    .675"  /> 
+  <surface id="86" type="z-cylinder" coeffs="0.00  0.00   .675"  /> 
+
+
+ <surface id="87" type="z-cylinder" coeffs="0.00  0.00   5.17"  /> 
+ <surface id="88" type="z-cylinder" coeffs="0.00  0.00   5.8189"  /> 
+ <surface id="89" type="z-cylinder" coeffs="0.00  0.00   7.55"  /> 
+ <surface id="90" type="z-cylinder" coeffs="0.00  0.00   7.8"  /> 
+
+ <surface id="91" type="x-plane" coeffs="-11" boundary="reflective" /> 
+ <surface id="92" type="x-plane" coeffs="11"  boundary="reflective"/> 
+ <surface id="93" type="y-plane" coeffs="-11"  boundary="reflective"/> 
+ <surface id="94" type="y-plane" coeffs="11"  boundary="reflective"/> 
+ <surface id="95" type="z-plane" coeffs="-24.765"  boundary="reflective"/> 
+ <surface id="96" type="z-plane" coeffs="24.765"  boundary="reflective"/> 
+
+  <cell id="1" material="11" region="-1" universe="1"/>         
+  <cell id="2" material="11" region="-2 " universe="1"/>        
+  <cell id="3" material="11" region="-3" universe="1"/>        
+  <cell id="4" material="11" region="-4" universe="1"/>      
+  <cell id="5" material="11" region="-5" universe="1"/>          
+  <cell id="6" material="11" region="-6" universe="1"/>        
+  <cell id="7" material="11" region="-7" universe="1"/>        
+  <cell id="8" material="11" region="-8" universe="1"/> 
+  <cell id="9" material="11" region="-9" universe="1"/>          
+  <cell id="10" material="11" region="-10" universe="1"/>        
+  <cell id="11" material="11" region="-11" universe="1"/>        
+  <cell id="12" material="11" region="-12" universe="1"/> 
+  <cell id="13" material="11" region="-13" universe="1"/>          
+  <cell id="14" material="11" region="-14" universe="1"/>        
+  <cell id="15" material="11" region="-15" universe="1"/>        
+  <cell id="16" material="11" region="-16" universe="1"/> 
+  <cell id="17" material="11" region="-17" universe="1"/>          
+  <cell id="18" material="11" region="-18" universe="1"/>        
+  <cell id="19" material="11" region="-19" universe="1"/>        
+  <cell id="20" material="11" region="-20" universe="1"/> 
+  <cell id="21" material="11" region="-21" universe="1"/> 
+
+  <cell id="22" material="12" region="-22" universe="1"/>         
+  <cell id="23" material="12" region="-23 " universe="1"/>        
+  <cell id="24" material="12" region="-24" universe="1"/>        
+  <cell id="25" material="12" region="-25" universe="1"/>      
+  <cell id="26" material="12" region="-26" universe="1"/>          
+  <cell id="27" material="12" region="-27" universe="1"/>        
+  <cell id="28" material="12" region="-28" universe="1"/>        
+  <cell id="29" material="12" region="-29" universe="1"/> 
+  <cell id="30" material="12" region="-30" universe="1"/>          
+  <cell id="31" material="12" region="-31" universe="1"/>        
+  <cell id="32" material="12" region="-32" universe="1"/>        
+  <cell id="33" material="12" region="-33" universe="1"/> 
+  <cell id="34" material="12" region="-34" universe="1"/>          
+  <cell id="35" material="12" region="-35" universe="1"/>        
+  <cell id="36" material="13" region="-36" universe="1"/>        
+  <cell id="37" material="13" region="-37" universe="1"/> 
+  <cell id="38" material="13" region="-38" universe="1"/>          
+  <cell id="39" material="13" region="-39" universe="1"/>        
+  <cell id="40" material="13" region="-40" universe="1"/>        
+  <cell id="41" material="13" region="-41" universe="1"/> 
+  <cell id="42" material="13" region="-42" universe="1"/> 
+  <cell id="43" material="14" region="-43" universe="1"/> 
+
+  <cell id="44" material="2" region="1 -44" universe="1"/>         
+  <cell id="45" material="2" region="2 -45" universe="1"/>        
+  <cell id="46" material="2" region="3 -46" universe="1"/>        
+  <cell id="47" material="2" region="4 -47" universe="1"/>      
+  <cell id="48" material="2" region="5 -48" universe="1"/>          
+  <cell id="49" material="2" region="6 -49" universe="1"/>        
+  <cell id="50" material="2" region="7 -50" universe="1"/>        
+  <cell id="51" material="2" region="8 -51" universe="1"/> 
+  <cell id="52" material="2" region="9 -52" universe="1"/>          
+  <cell id="53" material="2" region="10 -53" universe="1"/>        
+  <cell id="54" material="2" region="11 -54" universe="1"/>        
+  <cell id="55" material="2" region="12 -55" universe="1"/> 
+  <cell id="56" material="2" region="13 -56" universe="1"/>          
+  <cell id="57" material="2" region="14 -57" universe="1"/>        
+  <cell id="58" material="2" region="15 -58" universe="1"/>        
+  <cell id="59" material="2" region="16 -59" universe="1"/> 
+  <cell id="60" material="2" region="17 -60" universe="1"/>          
+  <cell id="61" material="2" region="18 -61" universe="1"/>        
+  <cell id="62" material="2" region="19 -62" universe="1"/>        
+  <cell id="63" material="2" region="20 -63" universe="1"/> 
+  <cell id="64" material="2" region="21 -64" universe="1"/> 
+
+  <cell id="65" material="2" region="22 -65" universe="1"/>         
+  <cell id="66" material="2" region="23 -66" universe="1"/>        
+  <cell id="67" material="2" region="24 -67" universe="1"/>        
+  <cell id="68" material="2" region="25 -68" universe="1"/>      
+  <cell id="69" material="2" region="26 -69" universe="1"/>          
+  <cell id="70" material="2" region="27 -70" universe="1"/>        
+  <cell id="71" material="2" region="28 -71" universe="1"/>        
+  <cell id="72" material="2" region="29 -72" universe="1"/> 
+  <cell id="73" material="2" region="30 -73" universe="1"/>          
+  <cell id="74" material="2" region="31 -74" universe="1"/>        
+  <cell id="75" material="2" region="32 -75" universe="1"/>        
+  <cell id="76" material="2" region="33 -76" universe="1"/> 
+  <cell id="77" material="2" region="34 -77" universe="1" />          
+  <cell id="78" material="2" region="35 -78" universe="1"/>        
+  <cell id="79" material="2" region="36 -79" universe="1"/>        
+  <cell id="80" material="2" region="37 -80" universe="1"/> 
+  <cell id="81" material="2" region="38 -81" universe="1"/>          
+  <cell id="82" material="2" region="39 -82" universe="1"/>        
+  <cell id="83" material="2" region="40 -83" universe="1"/>        
+  <cell id="84" material="2" region="41 -84" universe="1"/> 
+  <cell id="85" material="2" region="42 -85" universe="1"/> 
+  <cell id="86" material="2" region="43 -86" universe="1"/> 
+ 
+  <cell id="87" material="3"   region="-87 44 43 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69
+                    70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86" universe="1"/> 
+ 
+ 
+  <cell id="88" material="4" region="87 -88"  universe="1" /> 
+  <cell id="89"  material="5" region="-89 88" universe="1"  /> 
+  <cell id="90" material="6" region="89"  universe="1" />
+  <cell id="91" fill="1" region="-90 " universe="2" /> 
+  <cell id="92" material="7"  region="90" universe="2" /> 
+  <cell id="93" fill="2" region=" 91 -92 93 -94 95 -96" />
+
+</geometry>

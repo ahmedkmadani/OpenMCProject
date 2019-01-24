@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<settings>
+
+<!--
+      ====================================================
+      Description: ACR1000 Assembly 43 Fuel pins
+      Case:        Problem  (43 fuel pins)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+
+<cross_sections>
+/home/ahmedk/Desktop/xdata/cross_sections1.xml
+</cross_sections>
+
+  <!-- Parameters for k-eigenvalue calculation -->
+  <eigenvalue>
+    <batches>600</batches>
+    <inactive>50</inactive>
+    <particles>10000</particles>
+  </eigenvalue>
+
+  <!-- Starting source -->
+  <source>
+    <space>
+      <type>box</type>
+      <parameters>
+        -11 -11 -24.765
+         11  11  24.765
+      </parameters>
+    </space>
+  </source>
+
+</settings>

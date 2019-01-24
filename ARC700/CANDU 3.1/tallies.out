@@ -1,0 +1,84 @@
+
+ ============================>     TALLY 1     <============================
+
+ Cell 93
+   Total Material
+     Flux                                 152.257        +/- 4.58838E-02
+ Cell 87
+   Total Material
+     Flux                                 0.0            +/- 0.0
+
+ ============================>     TALLY 2     <============================
+
+ Cell 93
+   Total Material
+     Nu-Fission Rate                      1.36990        +/- 7.02126E-04
+ Cell 87
+   Total Material
+     Nu-Fission Rate                      0.0            +/- 0.0
+
+ ============================>     TALLY 3     <============================
+
+ Cell 93
+   Total Material
+     Delayed-Nu-Fission Rate              9.38572E-03    +/- 4.57395E-06
+ Cell 87
+   Total Material
+     Delayed-Nu-Fission Rate              0.0            +/- 0.0
+
+ ============================>     TALLY 4     <============================
+
+ Cell 93
+   Total Material
+     Fission Rate                         0.559204       +/- 2.88087E-04
+ Cell 87
+   Total Material
+     Fission Rate                         0.0            +/- 0.0
+
+ ============================>     TALLY 5     <============================
+
+ Cell 93
+   Total Material
+     Absorption Rate                      1.00287        +/- 4.35912E-04
+ Cell 87
+   Total Material
+     Absorption Rate                      0.0            +/- 0.0
+
+ ============================>     TALLY 6     <============================
+
+ Cell 93
+   Total Material
+     Scattering Rate                      54.6965        +/- 1.73526E-02
+ Cell 87
+   Total Material
+     Scattering Rate                      0.0            +/- 0.0
+
+ ============================>     TALLY 7     <============================
+
+ Cell 93
+   Total Material
+     Total Reaction Rate                  55.6994        +/- 1.75682E-02
+ Cell 87
+   Total Material
+     Total Reaction Rate                  0.0            +/- 0.0
+
+ ============================>     TALLY 8     <============================
+
+ Delayed Group 1
+   Total Material
+     Delayed-Nu-Fission Rate              2.82242E-04    +/- 1.45970E-07
+ Delayed Group 2
+   Total Material
+     Delayed-Nu-Fission Rate              1.51899E-03    +/- 7.59665E-07
+ Delayed Group 3
+   Total Material
+     Delayed-Nu-Fission Rate              1.48638E-03    +/- 7.36856E-07
+ Delayed Group 4
+   Total Material
+     Delayed-Nu-Fission Rate              4.30767E-03    +/- 2.10212E-06
+ Delayed Group 5
+   Total Material
+     Delayed-Nu-Fission Rate              1.33549E-03    +/- 6.16825E-07
+ Delayed Group 6
+   Total Material
+     Delayed-Nu-Fission Rate              4.54956E-04    +/- 2.16568E-07
