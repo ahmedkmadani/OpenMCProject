@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<!--
+      ====================================================
+      Description: VVER 1000 (Russian PWR Design)
+      Case:        Problem 3 (Hexagonal PWR Assembly)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+  
+<materials>
+    <default_xs>71c</default_xs>
+   <!-- Fuel composed of U-238 O-16 and  U-235 2.6% -->
+  <material id="1">
+   <density value="10.55" units="g/cc" />
+    <nuclide name="U-235" xs="80c" wo="0.0229176280555" />
+    <nuclide name="U-238" xs="80c" wo="0.858529604849" />
+    <nuclide name="O-16"  xs="80c" wo="0.118552767096" />
+  </material>
+      
+      <!--   3.6% UO2 + 5% Gd2O3 -->
+  <material id="5">
+    <density value="10.547" units="g/cc" />
+    <nuclide name="U-235"   xs="80c" wo="0.0292792" />
+    <nuclide name="U-238"   xs="80c" wo="0.7940422" />
+    <nuclide name="O-16"    xs="80c" wo="0.1194922" />
+    <nuclide name="Gd-157"  xs="80c" wo="0.0571954 " /> 
+  </material>
+    
+  <!-- Cladding material  alloy Э110 -->
+  <material id="2">
+    <density value="6.4516" units="g/cc" />
+    <nuclide name="Nb-93"   xs="80c"  wo="0.0100" />
+    <nuclide name="Hf-174"  xs="80c"  wo="0.00000048" /> 
+    <nuclide name="Hf-176"  xs="80c"  wo="0.00001578" />
+    <nuclide name="Hf-177"  xs="80c"  wo="0.0000558" />
+    <nuclide name="Hf-178"  xs="80c"  wo="0.00008184" />
+    <nuclide name="Hf-179"  xs="80c"  wo="0.00004086" />
+    <nuclide name="Hf-180"  xs="80c"  wo="0.00010524" />
+    <nuclide name="Zr-90"   xs="80c"  wo="0.50920065" />
+    <nuclide name="Zr-91"   xs="80c"  wo="0.11104434" /> 
+    <nuclide name="Zr-92"   xs="80c"  wo="0.16973355" /> 
+    <nuclide name="Zr-94"   xs="80c"  wo="0.17200986" /> 
+    <nuclide name="Zr-96"   xs="80c"  wo="0.0277116" />  
+  </material>
+
+  <!-- Water -->
+  <material id="3">
+    <density value="0.716" units="g/cc" />
+    <nuclide name="H-1"  xs="80c"  wo="0.06312" />
+    <nuclide name="O-16" xs="80c"  wo="0.13539" />
+    <nuclide name="B-11" xs="80c"  wo="0.80149" />
+  </material>
+
+<!-- Guide Tube  alloy Э635 -->
+  <material id="4">
+    <density value="6.55" units="g/cc" />
+    <nuclide name="Nb-93"   xs="80c"  wo="0.0100" />
+    <nuclide name="Sn-112"  xs="80c"  wo="0.0001261" />
+    <nuclide name="Sn-114"  xs="80c"  wo="0.0000858" />
+    <nuclide name="Sn-115"  xs="80c"  wo="0.0000442" />
+    <nuclide name="Sn-116"  xs="80c"  wo="0.0018902" />
+    <nuclide name="Sn-117"  xs="80c"  wo="0.0009984" />
+    <nuclide name="Sn-118"  xs="80c"  wo="0.0031486" />
+    <nuclide name="Sn-119"  xs="80c"  wo="0.0011167" />
+    <nuclide name="Sn-120"  xs="80c"  wo="0.0042354" />
+    <nuclide name="Sn-122"  xs="80c"  wo="0.0006019" />
+    <nuclide name="Sn-124"  xs="80c"  wo="0.0007527" />
+    <nuclide name="Fe-54"   xs="80c"  wo="0.00017535" />
+    <nuclide name="Fe-56"   xs="80c"  wo="0.00275262" />
+    <nuclide name="Fe-57"   xs="80c"  wo="0.00006357" />
+    <nuclide name="Fe-58"   xs="80c"  wo="0.00000846" />
+    <nuclide name="Zr-90"   xs="80c"  wo="0.50662815" />
+    <nuclide name="Zr-91"   xs="80c"  wo="0.11048334" /> 
+    <nuclide name="Zr-92"   xs="80c"  wo="0.16887605" /> 
+    <nuclide name="Zr-94"   xs="80c"  wo="0.17114086" /> 
+    <nuclide name="Zr-96"   xs="80c"  wo="0.0275716" /> 
+  </material>
+ 
+ 
+  
+</materials>

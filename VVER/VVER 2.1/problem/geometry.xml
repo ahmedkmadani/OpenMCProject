@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<!--
+      ====================================================
+      Description: VVER 1000 (Russian PWR Design)
+      Case:        Problem 3 (Hexagonal PWR Assembly)
+      Written By:  Ahmed K Madani
+      Date:        02/03/2017
+      ====================================================
+  -->
+
+<geometry>
+    <cell fill="5" id="1"   region="1 -2 -80 110 -70 100 -120 90"     /> 
+ 
+    <cell id="101" material="void"  region="-5"    universe="909" />
+    <cell id="102" material="1"     region="5 -6"  universe="909" />
+    <cell id="500" material="void"  region="6 -7"  universe="909"/>
+    <cell id="600" material="2"     region="7 -8"  universe="909" />
+    <cell id="100" material="3"     region="8"     universe="909" />
+
+    <cell id="111" material="void"  region="-5"    universe="709" />
+    <cell id="112" material="5"     region="5 -6"  universe="709" />
+    <cell id="510" material="void"  region="6 -7"  universe="709"/>
+    <cell id="610" material="2"     region="7 -8"  universe="709" />
+    <cell id="110" material="3"     region="8"     universe="709" />
+
+    <cell id="107" material="3"  region="-9"      universe="808" />
+    <cell id="108" material="4"  region="9 -10"   universe="808" />
+    <cell id="109" material="3"  region="10"      universe="808" />
+
+    <cell id="103" material="3"  region="-11"     universe="505" />
+    <cell id="105" material="4"  region="11 -12"  universe="505" />
+    <cell id="106" material="3"  region="12"     universe="505" />
+
+    <cell id="601"  material="3"  universe="900" />
+
+    <hex_lattice id="5"   n_rings="11">
+        <pitch>1.275 </pitch>
+        <outer>900</outer>
+        <center>0.0 0.0 </center>
+        <universes>                                                   909
+                                                                909       909
+                                                         909        909       909
+                                                  909        909        909       909
+                                           909        909        909        909       909
+                                    909        909        909        909        909       909
+                             909        909        909        909        909        909       909
+                      909        909        909        909        909        909        909       909
+               909        909        709        909        909        909        709      909         909
+        909        909        909        909        909        909        909        909        909        909
+   909        909       909        909        909        808        909        909        909         909        909
+        909        909        909        808        909        909        808        909        909        909
+  909        909        909        909        909        909        909        909        909         909        909
+        909        909        909        909        709        909        909        909        909        909
+  909        909        909        909        909        909        909        909        909         909        909
+        909        909        808        909        909        808        709        808        909        909
+  909        909        909        909        808        909        909        909        909         909        909
+        909        909        909        909        909        909        909        909        909        909
+  909        909        909        709        909        909        909        909        909         909        909
+        909        909        909        909        909        909        808        909        909        909
+  909        709        808        909        909        505        909        909        808         709        909
+        909        909        909        808        909        909        909        909        909        909
+  909        909        909        909        909        909        909        709        909         909        909
+        909        909        909        909        909        909        909        909        909        909
+  909        909        909        909        909        909        808        909        909         909        909
+        909        909        808        709        808        909        909        808        909        909
+  909        909        909        909        909        909        909        909        909         909        909
+        909        909        909        909        909        709        909        909        909        909
+  909        909        909        909        909        909        909        909         909        909        909
+        909        909        909        808        909        909        808        909        909        909
+  909        909        909        909        909        808        909        909         909        909        909
+        909        909        909        909        909        909        909        909        909        909
+               909        909        709        909        909        909        709       909        909
+                      909        909        909        909        909        909        909        909
+                             909        909        909        909        909        909        909
+                                    909        909        909        909        909        909
+                                           909        909        909        909        909
+                                                  909        909        909        909
+                                                         909        909        909
+                                                                909        909
+                                                                       909
+ </universes>
+    </hex_lattice> 
+
+    
+  <surface id="1" type="z-plane" coeffs="-176.5" boundary="reflective" />
+  <surface id="2" type="z-plane" coeffs="176.5" boundary="reflective" />
+    
+ 
+   <surface id="70" type="plane" coeffs="1 1.73205 0 23.6"   boundary="reflective"/>
+   <surface id="80" type="x-plane" coeffs="11.8" boundary="reflective" />
+   <surface id="90" type="plane" coeffs="-1 1.73205 0 -23.6" boundary="reflective" />
+   <surface id="100" type="plane" coeffs="1 1.73205 0 -23.6 "  boundary="reflective" />
+   <surface id="110" type="x-plane" coeffs="-11.8 " boundary="reflective" />
+   <surface id="120" type="plane" coeffs="-1 1.73205 0  23.6"  boundary="reflective" />
+
+    <surface id="5" type="z-cylinder" coeffs="0. 0. 0.075"  />
+    <surface id="6" type="z-cylinder" coeffs="0. 0. 0.3785" />
+    <surface id="7" type="z-cylinder" coeffs="0. 0. 0.3865" />
+    <surface id="8" type="z-cylinder" coeffs="0. 0. 0.455" />
+    <surface id="9" type="z-cylinder" coeffs="0. 0. 0.545" />
+
+    <surface id="10" type="z-cylinder" coeffs="0. 0. 0.628"  />
+    <surface id="11" type="z-cylinder" coeffs="0. 0. 0.55" />
+    <surface id="12" type="z-cylinder" coeffs="0. 0. 0.63" />
+
+
+
+  
+</geometry>
