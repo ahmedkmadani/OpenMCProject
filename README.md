@@ -9,13 +9,13 @@ OpenMC was originally developed by members of the Computational Reactor Physics 
 In this project, three different types of reactor had been simulated with three different Uo2 enrichment.Pressurized water reactor (PWR AP1000), CANDU reactor(ARC100) and water-cooled water-moderated energy reactor(VVER-1000) had been chosen to be simulated due to the difference in geometry of assembly and fuel rod composition.
 
 ###### Geometry layout of AP1000 PWR assembly using OpenMC.
-[!APP1000 assembly](https://github.com/ahmedkmadani/OpenMCProject/blob/master/Screenshots/AP1000.jpg)
+![APP1000 assembly](https://github.com/ahmedkmadani/OpenMCProject/blob/master/Screenshots/AP1000.jpg)
 
 
 ###### Geometry layout of CANDU ACR700 assembly using OpenMC.
-[!ARC700](https://github.com/ahmedkmadani/OpenMCProject/blob/master/Screenshots/ARC700.jpg)
+![ARC700](https://github.com/ahmedkmadani/OpenMCProject/blob/master/Screenshots/ARC700.jpg)
 
 
 ###### Geometry layout of VVER-1000 assembly using OpenMC.
-[VVER-1000](https://github.com/ahmedkmadani/OpenMCProject/blob/master/Screenshots/VVER.jpg)
+![VVER-1000](https://github.com/ahmedkmadani/OpenMCProject/blob/master/Screenshots/VVER.jpg)
 
