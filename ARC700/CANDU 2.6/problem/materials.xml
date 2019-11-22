@@ -10,139 +10,141 @@
       ====================================================
   -->
   
+<cross_sections>/home/ahmedk/Desktop/NuclearCodes/mcnp_endfb71/cross_sections.xml</cross_sections>
+
   <default_xs>71c</default_xs>
 
   <material id="11">
     <density value="9.82" units="g/cc" />
-   <nuclide name="U-235" xs="73c" wo="2.6" />
-    <nuclide name="U-238" xs="73c" wo="97.4" />
-    <nuclide name="O-16"  xs="73c" wo="13.4529" />
+   <nuclide name="U235" xs="73c" wo="2.6" />
+    <nuclide name="U238" xs="73c" wo="97.4" />
+    <nuclide name="O16"  xs="73c" wo="13.4529" />
   </material>
 
 <material id="12">
     <density value="9.82" units="g/cc" />
-   <nuclide name="U-235" xs="72c" wo="2.6" />
-    <nuclide name="U-238" xs="72c" wo="97.4" />
-    <nuclide name="O-16"  xs="72c" wo="13.4529" />
+   <nuclide name="U235" xs="72c" wo="2.6" />
+    <nuclide name="U238" xs="72c" wo="97.4" />
+    <nuclide name="O16"  xs="72c" wo="13.4529" />
   </material>
 
 <material id="13">
     <density value="10.298" units="g/cc" />
-   <nuclide name="U-235" xs="72c" wo="2.6" />
-    <nuclide name="U-238" xs="72c" wo="97.4" />
-    <nuclide name="O-16"  xs="72c" wo="13.4529" />
+   <nuclide name="U235" xs="72c" wo="2.6" />
+    <nuclide name="U238" xs="72c" wo="97.4" />
+    <nuclide name="O16"  xs="72c" wo="13.4529" />
   </material>
 
 <material id="14">
     <density value="10.298" units="g/cc" />
-    <nuclide name="U-235"   xs="72c" wo="0.72" />
-    <nuclide name="U-238"   xs="72c" wo="99.28" />
-    <nuclide name="O-16"    xs="72c" wo="13.4529" />
-    <nuclide name="Dy-160"  xs="72c" wo="0.1735" />
-    <nuclide name="Dy-161"  xs="72c" wo="1.418" />
-    <nuclide name="Dy-162"  xs="72c" wo="1.915" />
-    <nuclide name="Dy-163"  xs="72c" wo="1.861" />
-    <nuclide name="Dy-164"  xs="72c" wo="2.1317" />
+    <nuclide name="U235"   xs="72c" wo="0.72" />
+    <nuclide name="U238"   xs="72c" wo="99.28" />
+    <nuclide name="O16"    xs="72c" wo="13.4529" />
+    <nuclide name="Dy160"  xs="72c" wo="0.1735" />
+    <nuclide name="Dy161"  xs="72c" wo="1.418" />
+    <nuclide name="Dy162"  xs="72c" wo="1.915" />
+    <nuclide name="Dy163"  xs="72c" wo="1.861" />
+    <nuclide name="Dy164"  xs="72c" wo="2.1317" />
   </material>
      
 
   <!-- Zircaloy 4  -->
   <material id="2">
     <density value="7.48" units="g/cc" />
-    <nuclide name="O-16"   xs="71c"  wo="0.125" />
-    <nuclide name="Cr-50"   xs="71c"  wo="0.004345" />
-    <nuclide name="Cr-52"   xs="71c"  wo="0.083789" />
-    <nuclide name="Cr-53"   xs="71c"  wo="0.009501" />
-    <nuclide name="Cr-54"   xs="71c"  wo="0.002365" />
-    <nuclide name="Sn-112"  xs="71c"  wo="0.014065" />
-    <nuclide name="Sn-114"  xs="71c"  wo="0.00957" />
-    <nuclide name="Sn-115"  xs="71c"  wo="0.00493" />
-    <nuclide name="Sn-116"  xs="71c"  wo="0.21083" />
-    <nuclide name="Sn-117"  xs="71c"  wo="0.11136" />
-    <nuclide name="Sn-118"  xs="71c"  wo="0.35119" />
-    <nuclide name="Sn-119"  xs="71c"  wo="0.124555" />
-    <nuclide name="Sn-120"  xs="71c"  wo="0.47241" />
-    <nuclide name="Sn-122"  xs="71c"  wo="0.067135" />
-    <nuclide name="Sn-124"  xs="71c"  wo="0.083955" />
-    <nuclide name="Fe-54"  xs="71c"  wo="0.0122745" />
-    <nuclide name="Fe-56"  xs="71c"  wo="0.1926834" />
-    <nuclide name="Fe-57"  xs="71c"  wo="0.0044499" />
-    <nuclide name="Fe-58"  xs="71c"  wo="0.0005922" />
-    <nuclide name="Zr-90"  xs="71c"  wo="50.48" />
-    <nuclide name="Zr-91"  xs="71c"  wo="11" /> 
-    <nuclide name="Zr-92"  xs="71c"  wo="16.83" /> 
-    <nuclide name="Zr-94"  xs="71c"  wo="17.05" /> 
-    <nuclide name="Zr-96"  xs="71c"  wo="2.75" /> 
+    <nuclide name="O16"   xs="71c"  wo="0.125" />
+    <nuclide name="Cr50"   xs="71c"  wo="0.004345" />
+    <nuclide name="Cr52"   xs="71c"  wo="0.083789" />
+    <nuclide name="Cr53"   xs="71c"  wo="0.009501" />
+    <nuclide name="Cr54"   xs="71c"  wo="0.002365" />
+    <nuclide name="Sn112"  xs="71c"  wo="0.014065" />
+    <nuclide name="Sn114"  xs="71c"  wo="0.00957" />
+    <nuclide name="Sn115"  xs="71c"  wo="0.00493" />
+    <nuclide name="Sn116"  xs="71c"  wo="0.21083" />
+    <nuclide name="Sn117"  xs="71c"  wo="0.11136" />
+    <nuclide name="Sn118"  xs="71c"  wo="0.35119" />
+    <nuclide name="Sn119"  xs="71c"  wo="0.124555" />
+    <nuclide name="Sn120"  xs="71c"  wo="0.47241" />
+    <nuclide name="Sn122"  xs="71c"  wo="0.067135" />
+    <nuclide name="Sn124"  xs="71c"  wo="0.083955" />
+    <nuclide name="Fe54"  xs="71c"  wo="0.0122745" />
+    <nuclide name="Fe56"  xs="71c"  wo="0.1926834" />
+    <nuclide name="Fe57"  xs="71c"  wo="0.0044499" />
+    <nuclide name="Fe58"  xs="71c"  wo="0.0005922" />
+    <nuclide name="Zr90"  xs="71c"  wo="50.48" />
+    <nuclide name="Zr91"  xs="71c"  wo="11" /> 
+    <nuclide name="Zr92"  xs="71c"  wo="16.83" /> 
+    <nuclide name="Zr94"  xs="71c"  wo="17.05" /> 
+    <nuclide name="Zr96"  xs="71c"  wo="2.75" /> 
   </material>
 
   
 <!-- water  -->
   <material id="3">
     <density value="0.71273" units="g/cc" />
-    <nuclide name="H-1"   ao="0.6666" />
-    <nuclide name="O-16"  ao="0.3334" />
-    <sab name="lwtr" xs="15t" />
+    <nuclide name="H1"   ao="0.6666" />
+    <nuclide name="O16"  ao="0.3334" />
+    <sab name="c_H_in_H2O" xs="04t" />
 </material>
 
   <!-- pressure tubr zr + Nb-->
   <material id="4">
     <density value="6.57" units="g/cc" />
-    <nuclide name="Zr-90"  xs="71c"  wo="50.16" />
-    <nuclide name="Zr-91"  xs="71c"  wo="10.94" /> 
-    <nuclide name="Zr-92"  xs="71c"  wo="16.72" /> 
-    <nuclide name="Zr-94"  xs="71c"  wo="16.945" /> 
-    <nuclide name="Zr-96"  xs="71c"  wo="2.73" />
-    <nuclide name="Nb-93"  xs="71c"  wo="2.5" />
+    <nuclide name="Zr90"  xs="71c"  wo="50.16" />
+    <nuclide name="Zr91"  xs="71c"  wo="10.94" /> 
+    <nuclide name="Zr92"  xs="71c"  wo="16.72" /> 
+    <nuclide name="Zr94"  xs="71c"  wo="16.945" /> 
+    <nuclide name="Zr96"  xs="71c"  wo="2.73" />
+    <nuclide name="Nb93"  xs="71c"  wo="2.5" />
   </material>
     
   
 <!-- grph  -->
   <material id="5">
     <density value="0.0017" units="g/cc" />
-    <nuclide name="O-16"   ao="0.6666" />
-    <nuclide name="C-Nat"  ao="0.3334" />
-    <sab name="grph" xs="11t" />
+    <nuclide name="O16"   ao="0.6666" />
+    <nuclide name="C0"  ao="0.3334" />
+    <sab name="c_Graphite" xs="11t" />
 </material>
      
   
 <!--Calandria Zirconium alloy grade R60804   -->
   <material id="6">
    <density value="6.44" units="g/cc" />
-    <nuclide name="O-16"    xs="70c"  wo="0.125" />
-    <nuclide name="Cr-50"   xs="70c"  wo="0.004345" />
-    <nuclide name="Cr-52"   xs="70c"  wo="0.083789" />
-    <nuclide name="Cr-53"   xs="70c"  wo="0.009501" />
-    <nuclide name="Cr-54"   xs="70c"  wo="0.002365" />
-    <nuclide name="Sn-112"  xs="70c"  wo="0.014065" />
-    <nuclide name="Sn-114"  xs="70c"  wo="0.00957" />
-    <nuclide name="Sn-115"  xs="70c"  wo="0.00493" />
-    <nuclide name="Sn-116"  xs="70c"  wo="0.21083" />
-    <nuclide name="Sn-117"  xs="70c"  wo="0.11136" />
-    <nuclide name="Sn-118"  xs="70c"  wo="0.35119" />
-    <nuclide name="Sn-119"  xs="70c"  wo="0.124555" />
-    <nuclide name="Sn-120"  xs="70c"  wo="0.47241" />
-    <nuclide name="Sn-122"  xs="70c"  wo="0.067135" />
-    <nuclide name="Sn-124"  xs="70c"  wo="0.083955" />
-    <nuclide name="Fe-54"  xs="70c"  wo="0.0122745" />
-    <nuclide name="Fe-56"  xs="70c"  wo="0.1926834" />
-    <nuclide name="Fe-57"  xs="70c"  wo="0.004431" />
-    <nuclide name="Fe-58"  xs="70c"  wo="0.0005922" />
-    <nuclide name="Zr-90"  xs="70c"  wo="50.16" />
-    <nuclide name="Zr-91"  xs="70c"  wo="10.94" /> 
-    <nuclide name="Zr-92"  xs="70c"  wo="16.72" /> 
-    <nuclide name="Zr-94"  xs="70c"  wo="17.94" /> 
-    <nuclide name="Zr-96"  xs="70c"  wo="2.73" /> 
+    <nuclide name="O16"    xs="70c"  wo="0.125" />
+    <nuclide name="Cr50"   xs="70c"  wo="0.004345" />
+    <nuclide name="Cr52"   xs="70c"  wo="0.083789" />
+    <nuclide name="Cr53"   xs="70c"  wo="0.009501" />
+    <nuclide name="Cr54"   xs="70c"  wo="0.002365" />
+    <nuclide name="Sn112"  xs="70c"  wo="0.014065" />
+    <nuclide name="Sn114"  xs="70c"  wo="0.00957" />
+    <nuclide name="Sn115"  xs="70c"  wo="0.00493" />
+    <nuclide name="Sn116"  xs="70c"  wo="0.21083" />
+    <nuclide name="Sn117"  xs="70c"  wo="0.11136" />
+    <nuclide name="Sn118"  xs="70c"  wo="0.35119" />
+    <nuclide name="Sn119"  xs="70c"  wo="0.124555" />
+    <nuclide name="Sn120"  xs="70c"  wo="0.47241" />
+    <nuclide name="Sn122"  xs="70c"  wo="0.067135" />
+    <nuclide name="Sn124"  xs="70c"  wo="0.083955" />
+    <nuclide name="Fe54"  xs="70c"  wo="0.0122745" />
+    <nuclide name="Fe56"  xs="70c"  wo="0.1926834" />
+    <nuclide name="Fe57"  xs="70c"  wo="0.004431" />
+    <nuclide name="Fe58"  xs="70c"  wo="0.0005922" />
+    <nuclide name="Zr90"  xs="70c"  wo="50.16" />
+    <nuclide name="Zr91"  xs="70c"  wo="10.94" /> 
+    <nuclide name="Zr92"  xs="70c"  wo="16.72" /> 
+    <nuclide name="Zr94"  xs="70c"  wo="17.94" /> 
+    <nuclide name="Zr96"  xs="70c"  wo="2.73" /> 
   </material>
 
  
 <!-- Heavy water  -->
   <material id="7">
     <density value="1.07801" units="g/cc" />
-    <nuclide name="O-16" xs="73c" ao="1" />
-    <nuclide name="H-2" xs="80c" ao="1.996" />
-    <nuclide name="H-1" xs="80c" ao="0.004" />
-    <sab name="lwtr" xs="11t" />
-    <sab name="hwtr" xs="11t" />
+    <nuclide name="O16" xs="73c" ao="1" />
+    <nuclide name="H2" xs="80c" ao="1.996" />
+    <nuclide name="H1" xs="80c" ao="0.004" />
+    <sab name="c_H_in_H2O" xs="04t" />
+    <sab name="c_D_in_D2O" xs="11t" />
 </material>
       
  

@@ -1,0 +1,55 @@
+ ============================>     TALLY 1     <============================
+
+ Cell 1
+   Total Material
+     Flux                                 61.9805 +/- 0.012219
+ ============================>     TALLY 2     <============================
+
+ Cell 1
+   Total Material
+     Nu-Fission Rate                      1.13883 +/- 0.00063971
+ ============================>     TALLY 3     <============================
+
+ Cell 1
+   Total Material
+     Delayed-Nu-Fission Rate              0.00824429 +/- 4.21299e-06
+ ============================>     TALLY 4     <============================
+
+ Cell 1
+   Total Material
+     Fission Rate                         0.462143 +/- 0.000262581
+ ============================>     TALLY 5     <============================
+
+ Cell 1
+   Total Material
+     Absorption Rate                      1.00113 +/- 0.000427992
+ ============================>     TALLY 6     <============================
+
+ Cell 1
+   Total Material
+     Scattering Rate                      26.8844 +/- 0.00542714
+ ============================>     TALLY 7     <============================
+
+ Cell 1
+   Total Material
+     Total Reaction Rate                  27.8855 +/- 0.00569866
+ ============================>     TALLY 8     <============================
+
+ Delayed Group 1
+   Total Material
+     Delayed-Nu-Fission Rate              0.000258145 +/- 1.45794e-07
+ Delayed Group 2
+   Total Material
+     Delayed-Nu-Fission Rate              0.00139154 +/- 7.54306e-07
+ Delayed Group 3
+   Total Material
+     Delayed-Nu-Fission Rate              0.00136224 +/- 7.21972e-07
+ Delayed Group 4
+   Total Material
+     Delayed-Nu-Fission Rate              0.00318637 +/- 1.62928e-06
+ Delayed Group 5
+   Total Material
+     Delayed-Nu-Fission Rate              0.00144531 +/- 6.86792e-07
+ Delayed Group 6
+   Total Material
+     Delayed-Nu-Fission Rate              0.000600676 +/- 2.86882e-07

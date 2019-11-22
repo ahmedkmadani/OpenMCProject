@@ -10,10 +10,6 @@
       ====================================================
   -->
 
-<cross_sections>
-/home/ahmedk/Desktop/xdata/cross_sections1.xml
-</cross_sections>
-
   <!-- Parameters for k-eigenvalue calculation -->
   <eigenvalue>
     <batches>600</batches>

@@ -1,47 +1,81 @@
 <?xml version="1.0"?>
 <tallies>
 
+  <filter id="1" type="cell">
+  <bins>93 87</bins>
+  </filter>
 
-  
-  <tally id="1">
-    <filter type="cell" bins="93 87" />
+ <filter id="2" type="cell">
+  <bins>93 87</bins>
+  </filter>
+
+   <filter id="3" type="cell">
+  <bins>93 87</bins>
+  </filter>
+
+  <filter id="4" type="cell">
+  <bins>93 87</bins>
+  </filter>
+
+    <filter id="5" type="cell">
+  <bins>93 87</bins>
+  </filter>
+
+    <filter id="6" type="cell">
+  <bins>93 87</bins>
+  </filter>
+
+   <filter id="7" type="cell">
+  <bins>93 87</bins>
+  </filter>
+
+  <filter id="8" type="delayedgroup">
+  <bins>1 2 3 4 5 6</bins>
+  </filter>
+
+ <tally id="1">
+    <filters>1</filters>
     <scores>flux</scores>
   </tally>
 
-  <tally id="2">
-    <filter type="cell" bins="93 87" />
+ <tally id="2">
+    <filters>2</filters>
     <scores>nu-fission</scores>
   </tally>
-  
-  
-  <tally id="3">
-    <filter type="cell" bins="93 87" />
+
+
+ <tally id="3">
+    <filters>3</filters>
     <scores>delayed-nu-fission</scores>
   </tally>
   
-<tally id="4">
-    <filter type="cell" bins="93 87" />
+  <tally id="4">
+    <filters>4</filters>
     <scores>fission</scores>
-  </tally>
+  </tally> 
   
   <tally id="5">
-    <filter type="cell" bins="93 87" />
+    <filters>5</filters>
     <scores>absorption</scores>
-  </tally>
+  </tally> 
   
   <tally id="6">
-    <filter type="cell" bins="93 87" />
+    <filters>6</filters>
     <scores>scatter</scores>
-  </tally>
-  
-  <tally id="7">
-    <filter type="cell" bins="93 87" />
-    <scores>total</scores>
-  </tally>
-  
+  </tally> 
 
+   <tally id="7">
+    <filters>7</filters>
+    <scores>total</scores>
+  </tally> 
+ 
   <tally id="8">
-   <filter type="delayedgroup" bins="1 2 3 4 5 6" />
-   <scores>delayed-nu-fission</scores>
-  </tally>
+    <filters>8</filters>
+    <scores>delayed-nu-fission</scores>
+  </tally>   
+
 </tallies>
+
+
+
+ 
