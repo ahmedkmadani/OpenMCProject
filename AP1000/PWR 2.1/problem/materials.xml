@@ -59,7 +59,7 @@
     <density value="0.73" units="g/cc" />
     <nuclide name="H1"  xs="71c"  ao="2.0" />
     <nuclide name="O16" xs="71c"  ao="1.0" />
-    <sab name="c_H_in_H2O" xs="04t" />
+    <!-- <sab name="c_H_in_H2O" xs="04t" /> -->
   </material>
     
 <!-- Guide Tube -->
