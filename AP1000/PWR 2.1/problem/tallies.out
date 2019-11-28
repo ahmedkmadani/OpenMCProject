@@ -1,0 +1,63 @@
+
+ ============================>     TALLY 1     <============================
+
+ Cell 1
+   Total Material
+     Flux                                 48.1251        +/- 1.04779E-02
+
+ ============================>     TALLY 2     <============================
+
+ Cell 1
+   Total Material
+     Nu-Fission Rate                      1.23740        +/- 6.41088E-04
+
+ ============================>     TALLY 3     <============================
+
+ Cell 1
+   Total Material
+     Delayed-Nu-Fission Rate              8.78552E-03    +/- 4.24096E-06
+
+ ============================>     TALLY 4     <============================
+
+ Cell 1
+   Total Material
+     Fission Rate                         0.503212       +/- 2.62902E-04
+
+ ============================>     TALLY 5     <============================
+
+ Cell 1
+   Total Material
+     Absorption Rate                      1.00134        +/- 4.25218E-04
+
+ ============================>     TALLY 6     <============================
+
+ Cell 1
+   Total Material
+     Scattering Rate                      33.8552        +/- 9.30306E-03
+
+ ============================>     TALLY 7     <============================
+
+ Cell 1
+   Total Material
+     Total Reaction Rate                  34.8566        +/- 9.65666E-03
+
+ ============================>     TALLY 8     <============================
+
+ Delayed Group 1
+   Total Material
+     Delayed-Nu-Fission Rate              2.53152E-04    +/- 1.33191E-07
+ Delayed Group 2
+   Total Material
+     Delayed-Nu-Fission Rate              1.39554E-03    +/- 6.98258E-07
+ Delayed Group 3
+   Total Material
+     Delayed-Nu-Fission Rate              1.37422E-03    +/- 6.79073E-07
+ Delayed Group 4
+   Total Material
+     Delayed-Nu-Fission Rate              4.02822E-03    +/- 1.94805E-06
+ Delayed Group 5
+   Total Material
+     Delayed-Nu-Fission Rate              1.30113E-03    +/- 5.88791E-07
+ Delayed Group 6
+   Total Material
+     Delayed-Nu-Fission Rate              4.33259E-04    +/- 2.02954E-07
