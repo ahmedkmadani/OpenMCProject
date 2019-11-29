@@ -12,8 +12,8 @@
 <!-- <cross_sections>
 /home/ahmedk/Desktop/NuclearCodes/Cross_section_data/nndc/293.6K/cross_sections_mcnp6.1.xml</cross_sections> -->
 
-<cross_sections>
-/home/ahmedk/Desktop/NuclearCodes/Cross_section_data/nndc/293.6K/mcnp_endfb70/cross_sections.xml</cross_sections>
+<!-- <cross_sections>
+/home/ahmedk/Desktop/NuclearCodes/Cross_section_data/nndc/293.6K/mcnp_endfb70/cross_sections.xml</cross_sections> -->
 
   <eigenvalue>
     <batches>600</batches>

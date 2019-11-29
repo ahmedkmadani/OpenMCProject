@@ -9,6 +9,8 @@
       Date:        02/03/2017
       ====================================================
   -->
+
+  <cross_sections>/home/ahmedk/Desktop/NuclearCodes/Cross_section_data/nndc/293.6K/mcnp_endfb70/cross_sections.xml</cross_sections>
   
    <default_xs>71c</default_xs>
 
